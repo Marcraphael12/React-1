@@ -1,0 +1,65 @@
+.main { /* Main container */
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.calc { /* Calculator container */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Calculator's screen start */
+.screen { /* Calculator's screen */
+  width: 100%;
+  height: auto;
+  background: rgb(98, 98, 98);
+}
+
+.screen input { /* Calculator's screen input */
+  direction: rtl;
+  max-width: 100%;
+  padding: 10px;
+  color: #fff;
+}
+
+.screen input::placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+/* Calculator's screen end */
+
+/* Calculator's buttons start */
+li {
+  border: 1px solid rgb(223, 214, 214);
+  font-weight: bolder;
+}
+
+.pad { /* Calculator's buttons container */
+  width: 25%;
+  height: auto;
+}
+
+.zero { /* zero button */
+  width: 50%;
+}
+
+.same { /* gray buttons */
+  background-color: rgba(223, 217, 217, 0.847);
+}
+
+.same:hover {
+  background-color: #cac1c1;
+}
+
+.different { /* Orange buttons */
+  background-color: rgba(255, 135, 54, 0.723);
+}
+
+.different:hover {
+  background-color: #d60;
+}
+
+/* Calculator's buttons end */
