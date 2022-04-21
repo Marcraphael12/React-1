@@ -14,7 +14,7 @@
 .screen { /* Calculator's screen */
   width: 100%;
   height: auto;
-  background: rgb(42, 42, 42);
+  background: rgb(98, 98, 98);
 }
 
 .screen input { /* Calculator's screen input */
@@ -24,11 +24,16 @@
   color: #fff;
 }
 
+.screen input::placeholder {
+  color: white;
+  font-size: 15px;
+}
+
 /* Calculator's screen end */
 
 /* Calculator's buttons start */
 li {
-  border: 1px solid #000;
+  border: 1px solid rgb(223, 214, 214);
   font-weight: bolder;
 }
 
@@ -42,15 +47,15 @@ li {
 }
 
 .same { /* gray buttons */
-  background-color: #5c5c5c;
+  background-color: rgba(223, 217, 217, 0.847);
 }
 
 .same:hover {
-  background-color: #4c4c4c;
+  background-color: #cac1c1;
 }
 
 .different { /* Orange buttons */
-  background-color: #f60;
+  background-color: rgba(255, 135, 54, 0.723);
 }
 
 .different:hover {

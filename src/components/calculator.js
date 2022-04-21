@@ -2,7 +2,7 @@ import React from 'react';
 import './calculator.css';
 
 class Pad extends React.Component {
-  render {
+  render() {
     return (
       <div className='main'>
         <ul className='calc'>
@@ -10,7 +10,7 @@ class Pad extends React.Component {
           <li className="pad same"><button type="submit">AC</button></li>
           <li className="pad same"><button type="submit">+/-</button></li>
           <li className="pad same"><button type="submit">%</button></li>
-          <li className="pad different"><button type="submit">+</button></li>
+          <li className="pad different"><button type="submit">/</button></li>
           <li className="pad same"><button type="submit">7</button></li>
           <li className="pad same"><button type="submit">8</button></li>
           <li className="pad same"><button type="submit">9</button></li>
@@ -22,7 +22,7 @@ class Pad extends React.Component {
           <li className="pad same"><button type="submit">1</button></li>
           <li className="pad same"><button type="submit">2</button></li>
           <li className="pad same"><button type="submit">3</button></li>
-          <li className="pad different"><button type="submit">/</button></li>
+          <li className="pad different"><button type="submit">+</button></li>
           <li className="pad same zero"><button type="submit">0</button></li>
           <li className="pad same"><button type="submit">.</button></li>
           <li className="pad different"><button type="submit">=</button></li>
