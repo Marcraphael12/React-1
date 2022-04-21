@@ -3,7 +3,6 @@ import './calculator.css';
 
 // Logic components
 import calculate from './Logic/calculate';
-import operate from './Logic/operate';
 
 // Buttons list
 import buttons from './buttons';
